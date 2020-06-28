@@ -6,9 +6,9 @@ API e Frontend de Jogo Da Velha
 O projeto foi feito em node js, utilizando tambem HTML e CSS para desenvolvimento da interface.
 A matriz do projeto tem como base o seginte mapeamento:
 
-y0x0	y0x1	y0x2
-y1x0	y1x1	y1x2
-y2x0	y2x1	y2x2
+y0x0	y0x1	y0x2 <br>
+y1x0	y1x1	y1x2 <br>
+y2x0	y2x1	y2x2 <br>
 
 foi usado esse mapeamento para simplificar algumas funções envolvendo arrays bidimenssionais em javascript.
 
