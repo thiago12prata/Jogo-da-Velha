@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" type="text/css" href="./estilo.css" media="screen" />
+    <script src="./scripts.js"></script>
+</head>
+<body>
+    <div id="divTitulo" class="flex-box container-box"><h1>Jogo da Velha</h1></div>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <div id="divTabuleiro" class="flex-box container-box">
+        <table id="TabuleiroVelha">
+            <tr><td><input type="submit" value=" " onclick="efetuarJogada(this,0,0)" class="botaoJogada"></td><td><input type="submit" value=" " onclick="efetuarJogada(this,0,1)" class="botaoJogada"></td><td><input type="submit" value=" "onclick="efetuarJogada(this,0,2)" class="botaoJogada"></td></tr>
+            <tr><td><input type="submit" value=" " onclick="efetuarJogada(this,1,0)" class="botaoJogada"></td><td><input type="submit" value=" " onclick="efetuarJogada(this,1,1)" class="botaoJogada"></td><td><input type="submit" value=" "onclick="efetuarJogada(this,1,2)" class="botaoJogada"></td></tr>
+            <tr><td><input type="submit" value=" " onclick="efetuarJogada(this,2,0)" class="botaoJogada"></td><td><input type="submit" value=" " onclick="efetuarJogada(this,2,1)" class="botaoJogada"></td><td><input type="submit" value=" "onclick="efetuarJogada(this,2,2)" class="botaoJogada"></td></tr>
+        </table> 
+    </div>
+    <br> 
+    <br>
+    <div id="botaoIniciar" class="flex-box container-box"><input type="submit" id="iniciarPartida" onclick="inicioPartida()" value="Iniciar Partida"></div>
+</body>
+</html>
