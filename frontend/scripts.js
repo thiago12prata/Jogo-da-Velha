@@ -50,6 +50,7 @@ function efetuarJogada(botao, y, x){
             if(resultadoJogada.winner){
                 alert(resultadoJogada.winner)
                 zerar();
+                partida = undefined;
             }
             else{
                 partida.jogadorDaVez = partida.jogadorDaVez === "X" ? "O" : "X";
